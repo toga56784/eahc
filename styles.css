@@ -1,0 +1,123 @@
+/* --------------------------- */
+/* Resets/Base                 */
+/* --------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Verdana, 'Times New Roman', Times, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------- */
+/* Navbar                      */
+/* --------------------------- */
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FF6600;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+}
+
+.logo {
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+/* --------------------------- */
+/* Footer                      */
+/* --------------------------- */
+
+.footer-container {
+  text-align: center;  /* center everything */
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer-container p {
+  margin: 0 0 10px 0;  /* space below paragraph */
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;  /* center the links horizontally */
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------------- */
+/* Hero                        */
+/* --------------------------- */
+
+.hero {
+    text-align: center;
+    margin: 5px;
+
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+/* --------------------------- */
+/* Home                        */
+/* --------------------------- */
+
+.project-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.project-highlight img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+
+.project-text {
+  max-width: 50%;
+  display: block;
+  gap: 10px;
+  margin-top: 175px;
+  font-size: 20px;
+}
+
+.resume-highlight {
+    text-align: center;
+}
+
+.resume-highlight h3 {
+    font-size: 30px;
+}
