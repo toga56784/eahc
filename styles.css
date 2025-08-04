@@ -202,3 +202,7 @@ header nav {
 .testimonial {
     margin: 10px;
 }
+
+.testimonial p {
+  font-style: italics;
+}
