@@ -17,6 +17,7 @@ body {
     background-blend-mode: darken;
     color: white;
     font-family: '';
+    margin: 8;
 }
 
 img {
