@@ -5,7 +5,6 @@
 
 html, body {
     height: 100%;
-    width: 100%;
 } 
 
 body {
@@ -18,12 +17,17 @@ body {
     background-blend-mode: darken;
     color: white;
     font-family: '';
-    margin: 8;
+    text-align: center;
+}
+
+div {
+    height: 20%;
+    padding: 8px;
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    aspect-ratio: 1 / 1;
     margin: 8px;
     padding: 2px;
     border-radius: 20px;
@@ -31,31 +35,36 @@ img {
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 800%;
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 400%;
 }
 
 p {
-    font-size: 40px;
+    font-size: 160%;
     font-weight: bold;
+}
+
+a {
+    height: 4%;
 }
 
 button {
     border: none;
-    height: 40px;
-    padding: 10px;
+    padding: 8px;
     background-color: #274bae;
     font-weight: bold;
     border-radius: 10px;
     color: white;
-    margin: 5px;
+    margin: 4px;
+}
+
+.icons {
+    height: 10%;
 }
 
 .icons img{
-    height: 50px;
-    width: auto;
     border: none;
 }
